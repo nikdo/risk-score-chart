@@ -1,0 +1,133 @@
+:root {
+  --font-family: 'Open Sans', sans-serif;
+  --font-family-title: 'Nunito', sans-serif;
+
+  --font-size-base: 16px;
+  --font-size-small: 13px;
+  --font-size-large: 20px;
+
+  --line-height-base: 1.5;
+  --baseline: calc(var(--line-height-base) * var(--font-size-base)); /* 24px */
+  --line-height-small: calc(var(--baseline) / 3 * 2); /* 16px */
+
+  --font-weight-base: 400;
+  --font-weight-bold: 600;
+
+  --logo-fat-font-size: 43px;
+  --logo-fat-desktop-font-size: 54px;
+  --logo-font-size: 28px;
+
+  /* https://www.modularscale.com/?16,18&px&1.333 */
+  --h1-font-size: 28px;
+  --h1-font-weight: 400;
+  --h1-line-height: 32px;
+
+  /* https://www.modularscale.com/?16,20&px&1.5 */
+  --h1-desktop-font-size: 36px;
+  --h1-desktop-line-height: 40px;
+
+  --color-mine-shaft:    #353438;
+  --color-mountain-mist: #909090;
+  --color-mercury:       #E6E6E6;
+  --color-concrete:      #F2F2F2;
+  --color-romance:       #FCFCFA;
+
+  --color-blue-violet:   #5657AE;
+  --color-scampi:        #7172BA;
+  --color-san-marino:    #476FB8;
+  --color-danube:        #6586C3;
+
+  --color-vin-rouge:     #9D5068;
+  --color-bossanova:     #9872A2;
+  --color-sunglo:        #E67170;
+  --color-beach-peach:   #F29F70;
+  --color-golden-glow:   #F9E196;
+
+  --color-text: var(--color-mine-shaft);
+  --color-text-inverted: var(--color-romance);
+  --color-link: var(--color-san-marino);
+  --color-link-active: var(--color-blue-violet);
+  --color-background: var(--color-romance);
+  --color-background-semi-transparent: hsla(60, 25%, 98%, 0.2); /* romance + alpha */
+  --color-secondary-text: var(--color-mountain-mist);
+  --color-secondary-text-inverted: hsla(60, 25%, 98%, 0.6); /* romance + alpha */
+  --color-border: var(--color-mountain-mist);
+  --color-border-inverted: var(--color-text-inverted);
+  --color-line: var(--color-mercury);
+  --color-selected: var(--color-mercury);
+  --color-gradient-start: var(--color-scampi);
+  --color-gradient-end: var(--color-danube);
+
+  --opacity-secondary-icon: 0.83;
+
+  --gradient-background: linear-gradient(
+    120deg,
+    var(--color-gradient-start),
+    var(--color-gradient-end) 70%
+  );
+
+  --gradient-background-vertical: linear-gradient(
+    150deg,
+    var(--color-gradient-start),
+    var(--color-gradient-end) 50%
+  );
+
+  --gradient-selected: linear-gradient(
+    #E0E0E0, /* -2 lightness */
+    var(--color-selected) 15%,
+    var(--color-selected) 85%,
+    #EBEBEB /* +2 lightness */
+  );
+
+  --color-level-2: var(--color-concrete);
+  --color-level-3: var(--color-golden-glow);
+  --color-level-4: var(--color-beach-peach);
+  --color-level-5: var(--color-sunglo);
+  --color-level-6: var(--color-bossanova);
+  --color-level-7: var(--color-scampi);
+  --color-level-8: var(--color-vin-rouge);
+
+/* chart colors with manually-aligned contrast; see Sketch file */
+  --color-level-2-text: var(--color-mountain-mist);
+  --color-level-3-text: #D69A00;
+  --color-level-4-text: #ED6B21;
+  --color-level-5-text: #DE5A59;
+  --color-level-6-text: #946F9E;
+  --color-level-7-text: #7475C2;
+  --color-level-8-text: #C45276;
+
+
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --fat-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+  --transition-duration: 200ms;
+  --transition-massive-duration: 300ms;
+
+  --input-border-width: 1px;
+  --input-border-radius: 4px;
+  --input-vertical-padding: calc(var(--baseline) / 4);
+  --input-fat-vertical-padding: calc(var(--baseline) / 3);
+  --input-horizontal-padding: calc(var(--baseline) / 2);
+  --input-padding: var(--input-vertical-padding) var(--input-horizontal-padding);
+  --input-fat-padding: var(--input-fat-vertical-padding) var(--input-horizontal-padding);
+  --input-height: calc(
+    (2 * var(--input-border-width)) +
+    (2 * var(--input-vertical-padding)) +
+    (var(--line-height-base) * var(--font-size-base))
+  );
+  --input-fat-height: calc(
+    (2 * var(--input-border-width)) +
+    (2 * var(--input-fat-vertical-padding)) +
+    (var(--line-height-base) * var(--font-size-large))
+  );
+
+  --header-height-mobile: calc(2.5 * var(--baseline));
+  --header-height-desktop: calc(3 * var(--baseline));
+
+  /*
+  @custom-media --phone-portrait (width <= 440px);
+  @custom-media --phone (width <= 700px);
+  @custom-media --tablet (700px < width <= 1200px); // tablet portrait or large phone
+  @custom-media --desktop (1200px < width); // desktop or tablet landscape
+  */
+}

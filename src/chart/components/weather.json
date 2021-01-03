@@ -1,0 +1,1231 @@
+{
+  "hourly": [
+    {
+      "windSpeed": 1.7,
+      "windGust": 2.4,
+      "windBearing": 30,
+      "isDaylight": true,
+      "time": "2021-01-03T14:00:00.000Z"
+    },
+    {
+      "windSpeed": 1.6,
+      "windGust": 2,
+      "windBearing": 20,
+      "isDaylight": false,
+      "time": "2021-01-03T15:00:00.000Z",
+      "sunset": "2021-01-03T14:59:00.000Z"
+    },
+    {
+      "windSpeed": 2.1,
+      "windGust": 2.8,
+      "windBearing": 7,
+      "isDaylight": false,
+      "time": "2021-01-03T16:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.9,
+      "windGust": 4,
+      "windBearing": 352,
+      "isDaylight": false,
+      "time": "2021-01-03T17:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.5,
+      "windGust": 4.9,
+      "windBearing": 341,
+      "isDaylight": false,
+      "time": "2021-01-03T18:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 5,
+      "windBearing": 339,
+      "isDaylight": false,
+      "time": "2021-01-03T19:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 4.8,
+      "windBearing": 340,
+      "isDaylight": false,
+      "time": "2021-01-03T20:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 4.5,
+      "windBearing": 342,
+      "isDaylight": false,
+      "time": "2021-01-03T21:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.8,
+      "windGust": 4.5,
+      "windBearing": 343,
+      "isDaylight": false,
+      "time": "2021-01-03T22:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.9,
+      "windGust": 4.6,
+      "windBearing": 344,
+      "isDaylight": false,
+      "time": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.9,
+      "windGust": 4.5,
+      "windBearing": 344,
+      "isDaylight": false,
+      "time": "2021-01-04T00:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.9,
+      "windGust": 4.5,
+      "windBearing": 344,
+      "isDaylight": false,
+      "time": "2021-01-04T01:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.8,
+      "windGust": 4.4,
+      "windBearing": 343,
+      "isDaylight": false,
+      "time": "2021-01-04T02:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.8,
+      "windGust": 4.3,
+      "windBearing": 343,
+      "isDaylight": false,
+      "time": "2021-01-04T03:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 4.2,
+      "windBearing": 345,
+      "isDaylight": false,
+      "time": "2021-01-04T04:00:00.000Z",
+      "sunrise": "2021-01-04T04:36:00.000Z"
+    },
+    {
+      "windSpeed": 3.6,
+      "windGust": 4,
+      "windBearing": 347,
+      "isDaylight": true,
+      "time": "2021-01-04T05:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.5,
+      "windGust": 3.9,
+      "windBearing": 351,
+      "isDaylight": true,
+      "time": "2021-01-04T06:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.6,
+      "windGust": 4.1,
+      "windBearing": 2,
+      "isDaylight": true,
+      "time": "2021-01-04T07:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.8,
+      "windGust": 4.3,
+      "windBearing": 15,
+      "isDaylight": true,
+      "time": "2021-01-04T08:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.8,
+      "windGust": 4.5,
+      "windBearing": 27,
+      "isDaylight": true,
+      "time": "2021-01-04T09:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.5,
+      "windGust": 4.4,
+      "windBearing": 38,
+      "isDaylight": true,
+      "time": "2021-01-04T10:00:00.000Z"
+    },
+    {
+      "windSpeed": 3,
+      "windGust": 4.2,
+      "windBearing": 48,
+      "isDaylight": true,
+      "time": "2021-01-04T11:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.4,
+      "windGust": 3.9,
+      "windBearing": 53,
+      "isDaylight": true,
+      "time": "2021-01-04T12:00:00.000Z"
+    },
+    {
+      "windSpeed": 2,
+      "windGust": 3.3,
+      "windBearing": 48,
+      "isDaylight": true,
+      "time": "2021-01-04T13:00:00.000Z"
+    },
+    {
+      "windSpeed": 1.5,
+      "windGust": 2.6,
+      "windBearing": 38,
+      "isDaylight": true,
+      "time": "2021-01-04T14:00:00.000Z"
+    },
+    {
+      "windSpeed": 1.2,
+      "windGust": 2.2,
+      "windBearing": 25,
+      "isDaylight": false,
+      "time": "2021-01-04T15:00:00.000Z",
+      "sunset": "2021-01-04T15:00:00.000Z"
+    },
+    {
+      "windSpeed": 1.5,
+      "windGust": 2.3,
+      "windBearing": 11,
+      "isDaylight": false,
+      "time": "2021-01-04T16:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.1,
+      "windGust": 2.7,
+      "windBearing": 355,
+      "isDaylight": false,
+      "time": "2021-01-04T17:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.5,
+      "windGust": 3.1,
+      "windBearing": 343,
+      "isDaylight": false,
+      "time": "2021-01-04T18:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.7,
+      "windGust": 3.2,
+      "windBearing": 339,
+      "isDaylight": false,
+      "time": "2021-01-04T19:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.8,
+      "windGust": 3.3,
+      "windBearing": 340,
+      "isDaylight": false,
+      "time": "2021-01-04T20:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.8,
+      "windGust": 3.4,
+      "windBearing": 341,
+      "isDaylight": false,
+      "time": "2021-01-04T21:00:00.000Z"
+    },
+    {
+      "windSpeed": 3,
+      "windGust": 3.6,
+      "windBearing": 340,
+      "isDaylight": false,
+      "time": "2021-01-04T22:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.1,
+      "windGust": 3.8,
+      "windBearing": 340,
+      "isDaylight": false,
+      "time": "2021-01-04T23:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.2,
+      "windGust": 4,
+      "windBearing": 340,
+      "isDaylight": false,
+      "time": "2021-01-05T00:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.1,
+      "windGust": 3.8,
+      "windBearing": 342,
+      "isDaylight": false,
+      "time": "2021-01-05T01:00:00.000Z"
+    },
+    {
+      "windSpeed": 3,
+      "windGust": 3.6,
+      "windBearing": 344,
+      "isDaylight": false,
+      "time": "2021-01-05T02:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.9,
+      "windGust": 3.4,
+      "windBearing": 345,
+      "isDaylight": false,
+      "time": "2021-01-05T03:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.8,
+      "windGust": 3.3,
+      "windBearing": 346,
+      "isDaylight": false,
+      "time": "2021-01-05T04:00:00.000Z",
+      "sunrise": "2021-01-05T04:37:00.000Z"
+    },
+    {
+      "windSpeed": 2.8,
+      "windGust": 3.2,
+      "windBearing": 348,
+      "isDaylight": true,
+      "time": "2021-01-05T05:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.8,
+      "windGust": 3.2,
+      "windBearing": 354,
+      "isDaylight": true,
+      "time": "2021-01-05T06:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.9,
+      "windGust": 3.3,
+      "windBearing": 8,
+      "isDaylight": true,
+      "time": "2021-01-05T07:00:00.000Z"
+    },
+    {
+      "windSpeed": 3,
+      "windGust": 3.4,
+      "windBearing": 27,
+      "isDaylight": true,
+      "time": "2021-01-05T08:00:00.000Z"
+    },
+    {
+      "windSpeed": 3,
+      "windGust": 3.6,
+      "windBearing": 41,
+      "isDaylight": true,
+      "time": "2021-01-05T09:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.9,
+      "windGust": 3.8,
+      "windBearing": 51,
+      "isDaylight": true,
+      "time": "2021-01-05T10:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.8,
+      "windGust": 4.1,
+      "windBearing": 54,
+      "isDaylight": true,
+      "time": "2021-01-05T11:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.5,
+      "windGust": 4.1,
+      "windBearing": 52,
+      "isDaylight": true,
+      "time": "2021-01-05T12:00:00.000Z"
+    },
+    {
+      "windSpeed": 2,
+      "windGust": 3.4,
+      "windBearing": 40,
+      "isDaylight": true,
+      "time": "2021-01-05T13:00:00.000Z"
+    },
+    {
+      "windSpeed": 1.5,
+      "windGust": 2.5,
+      "windBearing": 20,
+      "isDaylight": true,
+      "time": "2021-01-05T14:00:00.000Z"
+    },
+    {
+      "windSpeed": 1.2,
+      "windGust": 1.9,
+      "windBearing": 3,
+      "isDaylight": true,
+      "time": "2021-01-05T15:00:00.000Z"
+    },
+    {
+      "windSpeed": 1.5,
+      "windGust": 2.1,
+      "windBearing": 353,
+      "isDaylight": false,
+      "time": "2021-01-05T16:00:00.000Z",
+      "sunset": "2021-01-05T15:01:00.000Z"
+    },
+    {
+      "windSpeed": 2.2,
+      "windGust": 2.7,
+      "windBearing": 344,
+      "isDaylight": false,
+      "time": "2021-01-05T17:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.8,
+      "windGust": 3.3,
+      "windBearing": 338,
+      "isDaylight": false,
+      "time": "2021-01-05T18:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.1,
+      "windGust": 3.7,
+      "windBearing": 337,
+      "isDaylight": false,
+      "time": "2021-01-05T19:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.4,
+      "windGust": 4,
+      "windBearing": 340,
+      "isDaylight": false,
+      "time": "2021-01-05T20:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 4.2,
+      "windBearing": 343,
+      "isDaylight": false,
+      "time": "2021-01-05T21:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.8,
+      "windGust": 4.4,
+      "windBearing": 345,
+      "isDaylight": false,
+      "time": "2021-01-05T22:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.8,
+      "windGust": 4.5,
+      "windBearing": 346,
+      "isDaylight": false,
+      "time": "2021-01-05T23:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.8,
+      "windGust": 4.6,
+      "windBearing": 348,
+      "isDaylight": false,
+      "time": "2021-01-06T00:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.9,
+      "windGust": 4.7,
+      "windBearing": 350,
+      "isDaylight": false,
+      "time": "2021-01-06T01:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.1,
+      "windGust": 4.9,
+      "windBearing": 352,
+      "isDaylight": false,
+      "time": "2021-01-06T02:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.2,
+      "windGust": 5.1,
+      "windBearing": 353,
+      "isDaylight": false,
+      "time": "2021-01-06T03:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.2,
+      "windGust": 5.2,
+      "windBearing": 352,
+      "isDaylight": false,
+      "time": "2021-01-06T04:00:00.000Z",
+      "sunrise": "2021-01-06T04:37:00.000Z"
+    },
+    {
+      "windSpeed": 4.2,
+      "windGust": 5.3,
+      "windBearing": 351,
+      "isDaylight": true,
+      "time": "2021-01-06T05:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.3,
+      "windGust": 5.4,
+      "windBearing": 353,
+      "isDaylight": true,
+      "time": "2021-01-06T06:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.4,
+      "windGust": 5.7,
+      "windBearing": 3,
+      "isDaylight": true,
+      "time": "2021-01-06T07:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.6,
+      "windGust": 6,
+      "windBearing": 15,
+      "isDaylight": true,
+      "time": "2021-01-06T08:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.7,
+      "windGust": 6.2,
+      "windBearing": 26,
+      "isDaylight": true,
+      "time": "2021-01-06T09:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.5,
+      "windGust": 6.1,
+      "windBearing": 33,
+      "isDaylight": true,
+      "time": "2021-01-06T10:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.2,
+      "windGust": 5.9,
+      "windBearing": 38,
+      "isDaylight": true,
+      "time": "2021-01-06T11:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.8,
+      "windGust": 5.5,
+      "windBearing": 37,
+      "isDaylight": true,
+      "time": "2021-01-06T12:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.2,
+      "windGust": 4.6,
+      "windBearing": 34,
+      "isDaylight": true,
+      "time": "2021-01-06T13:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.5,
+      "windGust": 3.6,
+      "windBearing": 24,
+      "isDaylight": true,
+      "time": "2021-01-06T14:00:00.000Z"
+    },
+    {
+      "windSpeed": 2,
+      "windGust": 3,
+      "windBearing": 15,
+      "isDaylight": true,
+      "time": "2021-01-06T15:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.2,
+      "windGust": 3,
+      "windBearing": 1,
+      "isDaylight": false,
+      "time": "2021-01-06T16:00:00.000Z",
+      "sunset": "2021-01-06T15:01:00.000Z"
+    },
+    {
+      "windSpeed": 2.6,
+      "windGust": 3.4,
+      "windBearing": 345,
+      "isDaylight": false,
+      "time": "2021-01-06T17:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.9,
+      "windGust": 3.8,
+      "windBearing": 334,
+      "isDaylight": false,
+      "time": "2021-01-06T18:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.2,
+      "windGust": 4.1,
+      "windBearing": 335,
+      "isDaylight": false,
+      "time": "2021-01-06T19:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.3,
+      "windGust": 4.5,
+      "windBearing": 341,
+      "isDaylight": false,
+      "time": "2021-01-06T20:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.5,
+      "windGust": 4.7,
+      "windBearing": 347,
+      "isDaylight": false,
+      "time": "2021-01-06T21:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.6,
+      "windGust": 4.8,
+      "windBearing": 348,
+      "isDaylight": false,
+      "time": "2021-01-06T22:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.6,
+      "windGust": 4.9,
+      "windBearing": 347,
+      "isDaylight": false,
+      "time": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 4.8,
+      "windBearing": 347,
+      "isDaylight": false,
+      "time": "2021-01-07T00:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 4.7,
+      "windBearing": 349,
+      "isDaylight": false,
+      "time": "2021-01-07T01:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 4.5,
+      "windBearing": 352,
+      "isDaylight": false,
+      "time": "2021-01-07T02:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.6,
+      "windGust": 4.3,
+      "windBearing": 354,
+      "isDaylight": false,
+      "time": "2021-01-07T03:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.4,
+      "windGust": 4,
+      "windBearing": 352,
+      "isDaylight": false,
+      "time": "2021-01-07T04:00:00.000Z",
+      "sunrise": "2021-01-07T04:37:00.000Z"
+    },
+    {
+      "windSpeed": 3.2,
+      "windGust": 3.7,
+      "windBearing": 352,
+      "isDaylight": true,
+      "time": "2021-01-07T05:00:00.000Z"
+    },
+    {
+      "windSpeed": 3,
+      "windGust": 3.5,
+      "windBearing": 354,
+      "isDaylight": true,
+      "time": "2021-01-07T06:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.2,
+      "windGust": 3.6,
+      "windBearing": 7,
+      "isDaylight": true,
+      "time": "2021-01-07T07:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.4,
+      "windGust": 3.9,
+      "windBearing": 23,
+      "isDaylight": true,
+      "time": "2021-01-07T08:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.4,
+      "windGust": 4.1,
+      "windBearing": 34,
+      "isDaylight": true,
+      "time": "2021-01-07T09:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.2,
+      "windGust": 4.1,
+      "windBearing": 39,
+      "isDaylight": true,
+      "time": "2021-01-07T10:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.8,
+      "windGust": 4.1,
+      "windBearing": 41,
+      "isDaylight": true,
+      "time": "2021-01-07T11:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.6,
+      "windGust": 4,
+      "windBearing": 35,
+      "isDaylight": true,
+      "time": "2021-01-07T12:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.4,
+      "windGust": 3.5,
+      "windBearing": 16,
+      "isDaylight": true,
+      "time": "2021-01-07T13:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.3,
+      "windGust": 2.8,
+      "windBearing": 349,
+      "isDaylight": true,
+      "time": "2021-01-07T14:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.3,
+      "windGust": 2.5,
+      "windBearing": 330,
+      "isDaylight": true,
+      "time": "2021-01-07T15:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.7,
+      "windGust": 2.8,
+      "windBearing": 327,
+      "isDaylight": false,
+      "time": "2021-01-07T16:00:00.000Z",
+      "sunset": "2021-01-07T15:02:00.000Z"
+    },
+    {
+      "windSpeed": 3.2,
+      "windGust": 3.4,
+      "windBearing": 331,
+      "isDaylight": false,
+      "time": "2021-01-07T17:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.6,
+      "windGust": 3.8,
+      "windBearing": 335,
+      "isDaylight": false,
+      "time": "2021-01-07T18:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.6,
+      "windGust": 3.8,
+      "windBearing": 337,
+      "isDaylight": false,
+      "time": "2021-01-07T19:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.5,
+      "windGust": 3.6,
+      "windBearing": 339,
+      "isDaylight": false,
+      "time": "2021-01-07T20:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.4,
+      "windGust": 3.5,
+      "windBearing": 341,
+      "isDaylight": false,
+      "time": "2021-01-07T21:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.3,
+      "windGust": 3.4,
+      "windBearing": 341,
+      "isDaylight": false,
+      "time": "2021-01-07T22:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.2,
+      "windGust": 3.4,
+      "windBearing": 343,
+      "isDaylight": false,
+      "time": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.1,
+      "windGust": 3.3,
+      "windBearing": 344,
+      "isDaylight": false,
+      "time": "2021-01-08T00:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.1,
+      "windGust": 3.4,
+      "windBearing": 346,
+      "isDaylight": false,
+      "time": "2021-01-08T01:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.1,
+      "windGust": 3.4,
+      "windBearing": 349,
+      "isDaylight": false,
+      "time": "2021-01-08T02:00:00.000Z"
+    },
+    {
+      "windSpeed": 3,
+      "windGust": 3.5,
+      "windBearing": 351,
+      "isDaylight": false,
+      "time": "2021-01-08T03:00:00.000Z"
+    },
+    {
+      "windSpeed": 3,
+      "windGust": 3.6,
+      "windBearing": 352,
+      "isDaylight": false,
+      "time": "2021-01-08T04:00:00.000Z",
+      "sunrise": "2021-01-08T04:37:00.000Z"
+    },
+    {
+      "windSpeed": 3,
+      "windGust": 3.7,
+      "windBearing": 353,
+      "isDaylight": true,
+      "time": "2021-01-08T05:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.1,
+      "windGust": 3.8,
+      "windBearing": 357,
+      "isDaylight": true,
+      "time": "2021-01-08T06:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.3,
+      "windGust": 4.1,
+      "windBearing": 9,
+      "isDaylight": true,
+      "time": "2021-01-08T07:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.6,
+      "windGust": 4.3,
+      "windBearing": 25,
+      "isDaylight": true,
+      "time": "2021-01-08T08:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 4.5,
+      "windBearing": 36,
+      "isDaylight": true,
+      "time": "2021-01-08T09:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.5,
+      "windGust": 4.7,
+      "windBearing": 41,
+      "isDaylight": true,
+      "time": "2021-01-08T10:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.2,
+      "windGust": 4.8,
+      "windBearing": 42,
+      "isDaylight": true,
+      "time": "2021-01-08T11:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.8,
+      "windGust": 4.6,
+      "windBearing": 42,
+      "isDaylight": true,
+      "time": "2021-01-08T12:00:00.000Z"
+    },
+    {
+      "windSpeed": 2.3,
+      "windGust": 3.8,
+      "windBearing": 42,
+      "isDaylight": true,
+      "time": "2021-01-08T13:00:00.000Z"
+    },
+    {
+      "windSpeed": 1.7,
+      "windGust": 2.8,
+      "windBearing": 38,
+      "isDaylight": true,
+      "time": "2021-01-08T14:00:00.000Z"
+    },
+    {
+      "windSpeed": 1.4,
+      "windGust": 2.3,
+      "windBearing": 31,
+      "isDaylight": true,
+      "time": "2021-01-08T15:00:00.000Z"
+    },
+    {
+      "windSpeed": 1.9,
+      "windGust": 2.9,
+      "windBearing": 16,
+      "isDaylight": false,
+      "time": "2021-01-08T16:00:00.000Z",
+      "sunset": "2021-01-08T15:03:00.000Z"
+    },
+    {
+      "windSpeed": 2.7,
+      "windGust": 4.1,
+      "windBearing": 356,
+      "isDaylight": false,
+      "time": "2021-01-08T17:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.3,
+      "windGust": 4.9,
+      "windBearing": 341,
+      "isDaylight": false,
+      "time": "2021-01-08T18:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.5,
+      "windGust": 4.8,
+      "windBearing": 335,
+      "isDaylight": false,
+      "time": "2021-01-08T19:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.4,
+      "windGust": 4.4,
+      "windBearing": 335,
+      "isDaylight": false,
+      "time": "2021-01-08T20:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.4,
+      "windGust": 4.2,
+      "windBearing": 335,
+      "isDaylight": false,
+      "time": "2021-01-08T21:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.5,
+      "windGust": 4.4,
+      "windBearing": 339,
+      "isDaylight": false,
+      "time": "2021-01-08T22:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.6,
+      "windGust": 4.8,
+      "windBearing": 342,
+      "isDaylight": false,
+      "time": "2021-01-08T23:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 5,
+      "windBearing": 345,
+      "isDaylight": false,
+      "time": "2021-01-09T00:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 4.9,
+      "windBearing": 348,
+      "isDaylight": false,
+      "time": "2021-01-09T01:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 4.6,
+      "windBearing": 350,
+      "isDaylight": false,
+      "time": "2021-01-09T02:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.7,
+      "windGust": 4.5,
+      "windBearing": 350,
+      "isDaylight": false,
+      "time": "2021-01-09T03:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.8,
+      "windGust": 4.6,
+      "windBearing": 350,
+      "isDaylight": false,
+      "time": "2021-01-09T04:00:00.000Z",
+      "sunrise": "2021-01-09T04:37:00.000Z"
+    },
+    {
+      "windSpeed": 3.9,
+      "windGust": 4.8,
+      "windBearing": 350,
+      "isDaylight": true,
+      "time": "2021-01-09T05:00:00.000Z"
+    },
+    {
+      "windSpeed": 4,
+      "windGust": 5,
+      "windBearing": 353,
+      "isDaylight": true,
+      "time": "2021-01-09T06:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.2,
+      "windGust": 5,
+      "windBearing": 1,
+      "isDaylight": true,
+      "time": "2021-01-09T07:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.6,
+      "windGust": 5.1,
+      "windBearing": 15,
+      "isDaylight": true,
+      "time": "2021-01-09T08:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.8,
+      "windGust": 5.1,
+      "windBearing": 25,
+      "isDaylight": true,
+      "time": "2021-01-09T09:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.8,
+      "windGust": 5.1,
+      "windBearing": 32,
+      "isDaylight": true,
+      "time": "2021-01-09T10:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.8,
+      "windGust": 5.1,
+      "windBearing": 37,
+      "isDaylight": true,
+      "time": "2021-01-09T11:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.6,
+      "windGust": 4.9,
+      "windBearing": 37,
+      "isDaylight": true,
+      "time": "2021-01-09T12:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.1,
+      "windGust": 4.2,
+      "windBearing": 31,
+      "isDaylight": true,
+      "time": "2021-01-09T13:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.5,
+      "windGust": 3.5,
+      "windBearing": 20,
+      "isDaylight": true,
+      "time": "2021-01-09T14:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.2,
+      "windGust": 3.2,
+      "windBearing": 10,
+      "isDaylight": true,
+      "time": "2021-01-09T15:00:00.000Z"
+    },
+    {
+      "windSpeed": 3.6,
+      "windGust": 3.6,
+      "windBearing": 1,
+      "isDaylight": false,
+      "time": "2021-01-09T16:00:00.000Z",
+      "sunset": "2021-01-09T15:04:00.000Z"
+    },
+    {
+      "windSpeed": 4.2,
+      "windGust": 4.8,
+      "windBearing": 353,
+      "isDaylight": false,
+      "time": "2021-01-09T17:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.7,
+      "windGust": 5.7,
+      "windBearing": 345,
+      "isDaylight": false,
+      "time": "2021-01-09T18:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.8,
+      "windGust": 5.7,
+      "windBearing": 342,
+      "isDaylight": false,
+      "time": "2021-01-09T19:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.7,
+      "windGust": 5.3,
+      "windBearing": 340,
+      "isDaylight": false,
+      "time": "2021-01-09T20:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.6,
+      "windGust": 5.1,
+      "windBearing": 341,
+      "isDaylight": false,
+      "time": "2021-01-09T21:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.8,
+      "windGust": 5.4,
+      "windBearing": 342,
+      "isDaylight": false,
+      "time": "2021-01-09T22:00:00.000Z"
+    },
+    {
+      "windSpeed": 5,
+      "windGust": 5.9,
+      "windBearing": 345,
+      "isDaylight": false,
+      "time": "2021-01-09T23:00:00.000Z"
+    },
+    {
+      "windSpeed": 5.1,
+      "windGust": 6.2,
+      "windBearing": 347,
+      "isDaylight": false,
+      "time": "2021-01-10T00:00:00.000Z"
+    },
+    {
+      "windSpeed": 5.2,
+      "windGust": 6.2,
+      "windBearing": 347,
+      "isDaylight": false,
+      "time": "2021-01-10T01:00:00.000Z"
+    },
+    {
+      "windSpeed": 5.1,
+      "windGust": 6,
+      "windBearing": 347,
+      "isDaylight": false,
+      "time": "2021-01-10T02:00:00.000Z"
+    },
+    {
+      "windSpeed": 5.1,
+      "windGust": 5.8,
+      "windBearing": 347,
+      "isDaylight": false,
+      "time": "2021-01-10T03:00:00.000Z"
+    },
+    {
+      "windSpeed": 5.1,
+      "windGust": 5.9,
+      "windBearing": 347,
+      "isDaylight": false,
+      "time": "2021-01-10T04:00:00.000Z",
+      "sunrise": "2021-01-10T04:37:00.000Z"
+    },
+    {
+      "windSpeed": 5,
+      "windGust": 6,
+      "windBearing": 347,
+      "isDaylight": true,
+      "time": "2021-01-10T05:00:00.000Z"
+    },
+    {
+      "windSpeed": 5,
+      "windGust": 6.1,
+      "windBearing": 350,
+      "isDaylight": true,
+      "time": "2021-01-10T06:00:00.000Z"
+    },
+    {
+      "windSpeed": 5,
+      "windGust": 6,
+      "windBearing": 358,
+      "isDaylight": true,
+      "time": "2021-01-10T07:00:00.000Z"
+    },
+    {
+      "windSpeed": 5.1,
+      "windGust": 6,
+      "windBearing": 9,
+      "isDaylight": true,
+      "time": "2021-01-10T08:00:00.000Z"
+    },
+    {
+      "windSpeed": 5.1,
+      "windGust": 5.9,
+      "windBearing": 16,
+      "isDaylight": true,
+      "time": "2021-01-10T09:00:00.000Z"
+    },
+    {
+      "windSpeed": 5.1,
+      "windGust": 5.7,
+      "windBearing": 23,
+      "isDaylight": true,
+      "time": "2021-01-10T10:00:00.000Z"
+    },
+    {
+      "windSpeed": 5,
+      "windGust": 5.5,
+      "windBearing": 30,
+      "isDaylight": true,
+      "time": "2021-01-10T11:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.9,
+      "windGust": 5.3,
+      "windBearing": 32,
+      "isDaylight": true,
+      "time": "2021-01-10T12:00:00.000Z"
+    },
+    {
+      "windSpeed": 4.5,
+      "windGust": 5.1,
+      "windBearing": 29,
+      "isDaylight": true,
+      "time": "2021-01-10T13:00:00.000Z"
+    },
+    {
+      "windSpeed": 4,
+      "windGust": 5,
+      "windBearing": 22,
+      "isDaylight": true,
+      "time": "2021-01-10T14:00:00.000Z"
+    }
+  ],
+  "darkness": [
+    {
+      "start": "2021-01-03T15:00:00.000Z",
+      "end": "2021-01-04T04:00:00.000Z"
+    },
+    {
+      "start": "2021-01-04T15:00:00.000Z",
+      "end": "2021-01-05T04:00:00.000Z"
+    },
+    {
+      "start": "2021-01-05T16:00:00.000Z",
+      "end": "2021-01-06T04:00:00.000Z"
+    },
+    {
+      "start": "2021-01-06T16:00:00.000Z",
+      "end": "2021-01-07T04:00:00.000Z"
+    },
+    {
+      "start": "2021-01-07T16:00:00.000Z",
+      "end": "2021-01-08T04:00:00.000Z"
+    },
+    {
+      "start": "2021-01-08T16:00:00.000Z",
+      "end": "2021-01-09T04:00:00.000Z"
+    },
+    {
+      "start": "2021-01-09T16:00:00.000Z",
+      "end": "2021-01-10T04:00:00.000Z"
+    }
+  ]
+}
