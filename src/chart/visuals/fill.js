@@ -1,8 +1,8 @@
 import { fillClipUrl } from './defs/fillClip'
 
-export default (canvas, dimensions, scales, bftCeilings, skippedLevels, subscribeToHoverEvents) => {
-  const levelsCeilings = bftCeilings.slice(skippedLevels)
-  const levels = levelsCeilings.reduce((levels, breakpoint, i, levelsCeilings) => [
+// eslint-disable-next-line import/no-anonymous-default-export
+export default (canvas, dimensions, scales, bftCeilings, subscribeToHoverEvents) => {
+  const levels = bftCeilings.reduce((levels, _breakpoint, i, levelsCeilings) => [
     ...levels,
     {
       start: scales.y(levelsCeilings[i - 1] || 0),
@@ -18,7 +18,7 @@ export default (canvas, dimensions, scales, bftCeilings, skippedLevels, subscrib
       .attr('y', end)
       .attr('width', dimensions.w)
       .attr('height', start - end)
-      .attr('class', `wind-fill level-${level + skippedLevels}`)
+      .attr('class', `wind-fill level-${level + 1}`)
   })
 
   subscribeToHoverEvents({

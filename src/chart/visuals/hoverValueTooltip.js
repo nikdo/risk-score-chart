@@ -1,8 +1,9 @@
 import { bisect } from 'd3'
-import { lineHeight, bftNames } from './constants'
+import { lineHeight } from './constants'
 
-const toBft = (value, bftCeilings) => bisect(bftCeilings, value)
+const toLevel = (value, levelCeilings) => bisect(levelCeilings, value) + 1
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (value, data, bftCeilings, subscribeToHoverEvents) => {
   value.append('circle')
     .attr('r', 3)
@@ -24,17 +25,11 @@ export default (value, data, bftCeilings, subscribeToHoverEvents) => {
 
   subscribeToHoverEvents({
     onValueHover: (x, i) => {
-      const windSpeed = data[i].windSpeed
-      const windGustDiff = data[i].windGust - windSpeed
-      const bft = toBft(windSpeed, bftCeilings)
-      ms.text(windSpeed.toFixed(1) + '\u2009m/s')
-        .append('tspan')
-        .attr('class', 'gusts')
-        .text(' +' + windGustDiff.toFixed(1))
-      bf.text(bft + '\u2009bft')
-        .attr('class', `bft level-${bft}`)
-        .attr('display', bft > 1 ? null : 'none')
-        .append('tspan').text(' ' + bftNames[bft])
+      const score = data[i].body
+      const level = toLevel(score, bftCeilings)
+      ms.text(score.toFixed(0))
+      bf.text('Stupeň ' + level)
+        .attr('class', `bft level-${level}`)
     }
   })
 }

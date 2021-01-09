@@ -1,16 +1,17 @@
 import { axisTop } from 'd3'
 import { lineHeight } from './constants'
 
-export default (canvas, dimensions, scales) => {
+// eslint-disable-next-line import/no-anonymous-default-export
+export default (canvas, _dimensions, scales) => {
   const tickValues = scales.x.domain()
-    .filter(d => d.format('HH').match(/(00)/))
+    .filter(d => d.format('DD').match(/(01)/))
     .slice(0, -1)
 
   const axis = axisTop()
     .scale(scales.x)
     .tickValues(tickValues)
     .tickSize(0)
-    .tickFormat(d => d.format('dddd'))
+    .tickFormat(d => d.format('MMMM'))
 
   canvas.append('g')
     .attr('class', 'week-days')

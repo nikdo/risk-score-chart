@@ -1,6 +1,7 @@
 import { lineHeight } from './constants'
 import hoverValueTooltip from './hoverValueTooltip'
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (canvas, dimensions, scales, data, bftCeilings, subscribeToHoverEvents) => {
   const hoverGuide = canvas.append('g')
     .attr('class', 'hover-guide')
@@ -33,13 +34,13 @@ export default (canvas, dimensions, scales, data, bftCeilings, subscribeToHoverE
   subscribeToHoverEvents({
     onMouseOut: () => hoverGuide.style('display', 'none'),
     onValueHover: (x, i) => {
-      const y = scales.y(data[i].windSpeed)
+      const y = scales.y(data[i].body)
       hoverGuide
         .style('display', null)
         .attr('transform', `translate(${x}, 0)`)
       line.attr('y1', y)
       value.attr('transform', `translate(0, ${y})`)
-      time.select('.time text').text(scales.x.domain()[i].format('HH:mm'))
+      time.select('.time text').text(scales.x.domain()[i].format('D.M.'))
     }
   })
 }

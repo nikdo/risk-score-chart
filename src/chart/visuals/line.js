@@ -1,6 +1,7 @@
-import { line, curveNatural } from 'd3'
+import { line, curveLinear } from 'd3'
 
-export default (root, dimensions, scales, data, subscribeToHoverEvents) => {
+// eslint-disable-next-line import/no-anonymous-default-export
+export default (root, _dimensions, scales, data, subscribeToHoverEvents) => {
   const lineGroup = root.append('g')
     .attr('class', 'wind-line')
 
@@ -9,9 +10,9 @@ export default (root, dimensions, scales, data, subscribeToHoverEvents) => {
       .attr('class', clipPath)
       .datum(data)
       .attr('d', line()
-        .x(d => scales.x(d.time))
-        .y(d => scales.y(d.windSpeed))
-        .curve(curveNatural)
+        .x(d => scales.x(d.datum_zobrazeni))
+        .y(d => scales.y(d.body))
+        .curve(curveLinear)
       )
       .attr('clip-path', `url(#${clipPath})`)
   })

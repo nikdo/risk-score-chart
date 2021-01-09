@@ -1,17 +1,7 @@
 import React, { Component } from 'react'
-import moment from 'moment'
 import transform from '../transformations/transform'
 import windChart from '../visuals/windChart'
 import styles from './Chart.module.css'
-import weather from './weather.json'
-
-const transformedWeather = {
-  ...weather,
-  hourly: weather.hourly.map(frame => ({
-    ...frame,
-    time: moment(frame.time)
-  }))
-}
 
 export default class Chart extends Component {
   constructor () {
@@ -28,21 +18,21 @@ export default class Chart extends Component {
   }
 
   static getDerivedStateFromProps (props) {
-    return { visualisations: transform(transformedWeather) }
+    return { visualisations: transform(props.data) }
   }
 
   componentDidMount () {
-    windChart(this.canvasNode.current, transformedWeather, this.state.visualisations)
+    windChart(this.canvasNode.current, this.props.data, this.state.visualisations)
   }
 
   componentDidUpdate () {
     this.removeChart()
-    windChart(this.canvasNode.current, transformedWeather, this.state.visualisations)
+    windChart(this.canvasNode.current, this.props.data, this.state.visualisations)
   }
 
   render () {
     const { dimensions } = this.state.visualisations
-    const margin = { top: 25, right: 34, bottom: 24, left: 34 }
+    const margin = { top: 25, right: 134, bottom: 24, left: 34 }
     return (
       <section className={`${styles.chart} layout-section`}>
         <svg

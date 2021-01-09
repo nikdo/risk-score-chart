@@ -79,23 +79,25 @@
     #EBEBEB /* +2 lightness */
   );
 
-  --color-level-2: var(--color-concrete);
-  --color-level-3: var(--color-golden-glow);
-  --color-level-4: var(--color-beach-peach);
-  --color-level-5: var(--color-sunglo);
-  --color-level-6: var(--color-bossanova);
-  --color-level-7: var(--color-scampi);
-  --color-level-8: var(--color-vin-rouge);
+  --color-level-1: #C0F1A4;
+  --color-level-2: var(--color-golden-glow);
+  --color-level-3: var(--color-beach-peach);
+  --color-level-4: var(--color-sunglo);
+  --color-level-5: var(--color-bossanova);
+
+  /* MZCR colors */
+  /* --color-level-1: #00cd61;
+  --color-level-2: #f1d302;
+  --color-level-3: #f75a1c;
+  --color-level-4: #d31145;
+  --color-level-5: #401089; */
 
 /* chart colors with manually-aligned contrast; see Sketch file */
-  --color-level-2-text: var(--color-mountain-mist);
-  --color-level-3-text: #D69A00;
-  --color-level-4-text: #ED6B21;
-  --color-level-5-text: #DE5A59;
-  --color-level-6-text: #946F9E;
-  --color-level-7-text: #7475C2;
-  --color-level-8-text: #C45276;
-
+  --color-level-1-text: #C0F1A4;
+  --color-level-2-text: #D69A00;
+  --color-level-3-text: #ED6B21;
+  --color-level-4-text: #DE5A59;
+  --color-level-5-text: #946F9E;
 
   --shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   --fat-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);

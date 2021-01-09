@@ -1,28 +1,22 @@
-import { scalePoint, scaleLinear, max } from 'd3'
-import trimLevelsCeilings from './trimLevelsCeilings'
+import { scalePoint, scaleLinear } from 'd3'
 
-const bftCeilings = [0.3, 1.5, 3.3, 5.5, 8, 10.8, 13.9, 17.2, 20.7, 24.5, 28.4, 32.6, undefined]
-const minEndValue = bftCeilings[7]
-const unitHeigth = 12
-const hoverTooltipHeight = 30
+const dayWidth = 10
+const bftCeilings = [20, 40, 60, 75, 100]
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default data => {
-  const yMaxValue = max(data.hourly.map(d => d.windSpeed)) + hoverTooltipHeight / unitHeigth
-  const trimmedBftCeilings = trimLevelsCeilings(bftCeilings, Math.max(yMaxValue, minEndValue))
-  const yEndValue = trimmedBftCeilings[trimmedBftCeilings.length - 1]
-
   const dimensions = {
-    w: 1200,
-    h: yEndValue * unitHeigth
+    w: data.length * dayWidth,
+    h: 300
   }
   const scales = {
     x: scalePoint()
-      .domain(data.hourly.map(d => d.time))
+      .domain(data.map(d => d.datum_zobrazeni))
       .range([0, dimensions.w]),
     y: scaleLinear()
-      .domain([0, yEndValue])
+      .domain([0, 100])
       .rangeRound([dimensions.h, 0])
   }
 
-  return { dimensions, scales, bftCeilings: trimmedBftCeilings }
+  return { dimensions, scales, bftCeilings }
 }

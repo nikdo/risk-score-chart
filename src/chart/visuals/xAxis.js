@@ -1,12 +1,13 @@
 import { axisBottom } from 'd3'
 import { lineHeight } from './constants'
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (canvas, dimensions, scales, subscribeToHoverEvents) => {
   const axis = axisBottom()
     .scale(scales.x)
-    .tickValues(scales.x.domain().filter(d => d.format('HH').match(/(00|06|12|18)/)))
+    .tickValues(scales.x.domain().filter(d => d.format('ddd') === 'Mon'))
     .tickSize(0)
-    .tickFormat(d => d.format('HH'))
+    .tickFormat(d => d.format('D.M.'))
 
   const element = canvas.append('g')
     .attr('class', 'x axis')
