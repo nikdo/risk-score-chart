@@ -7,34 +7,25 @@ export default class Chart extends Component {
   constructor () {
     super();
     this.canvasNode = React.createRef()
-    this.state = { visualisations: null }
-  }
-
-  removeChart () {
-    const chart = this.canvasNode.current
-    while (chart.hasChildNodes()) {
-      chart.removeChild(chart.lastChild)
-    }
+    this.state = { visualizations: null }
+    this.containerRef = React.createRef()
   }
 
   static getDerivedStateFromProps (props) {
-    return { visualisations: transform(props.data) }
+    return { visualizations: transform(props.data) }
   }
 
   componentDidMount () {
-    windChart(this.canvasNode.current, this.props.data, this.state.visualisations)
-  }
-
-  componentDidUpdate () {
-    this.removeChart()
-    windChart(this.canvasNode.current, this.props.data, this.state.visualisations)
+    const offset = this.state.visualizations.dimensions.w
+    this.containerRef.current.scrollBy(offset, 0)
+    windChart(this.canvasNode.current, this.props.data, this.state.visualizations)
   }
 
   render () {
-    const { dimensions } = this.state.visualisations
+    const { dimensions } = this.state.visualizations
     const margin = { top: 25, right: 134, bottom: 24, left: 34 }
     return (
-      <section className={`${styles.chart} layout-section`}>
+      <section ref={this.containerRef} className={`${styles.chart} layout-section`}>
         <svg
           width={dimensions.w + margin.left + margin.right}
           height={dimensions.h + margin.top + margin.bottom}
