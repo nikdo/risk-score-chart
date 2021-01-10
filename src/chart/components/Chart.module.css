@@ -5,6 +5,7 @@ section.chart {
   padding-bottom: var(--baseline);
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
 }
 
 @media (width > 700px) {
