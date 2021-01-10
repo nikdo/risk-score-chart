@@ -1,43 +1,34 @@
-import React, { Component } from 'react'
+import React, { useEffect, useRef } from 'react'
 import transform from '../transformations/transform'
 import windChart from '../visuals/windChart'
 import styles from './Chart.module.css'
 
-export default class Chart extends Component {
-  constructor () {
-    super();
-    this.canvasNode = React.createRef()
-    this.state = { visualizations: null }
-    this.containerRef = React.createRef()
-  }
+export const Chart = ({ data }) => {
+  const canvasNode = useRef()
+  const containerRef = useRef()
+  const visualizations = transform(data)
 
-  static getDerivedStateFromProps (props) {
-    return { visualizations: transform(props.data) }
-  }
+  useEffect(() => {
+    const offset = visualizations.dimensions.w
+    containerRef.current.scrollBy(offset, 0)
+    windChart(canvasNode.current, data, visualizations)
+  })
 
-  componentDidMount () {
-    const offset = this.state.visualizations.dimensions.w
-    this.containerRef.current.scrollBy(offset, 0)
-    windChart(this.canvasNode.current, this.props.data, this.state.visualizations)
-  }
-
-  render () {
-    const { dimensions } = this.state.visualizations
-    const margin = { top: 25, right: 134, bottom: 24, left: 34 }
-    return (
-      <section ref={this.containerRef} className={`${styles.chart} layout-section`}>
-        <svg
-          width={dimensions.w + margin.left + margin.right}
-          height={dimensions.h + margin.top + margin.bottom}
-        >
-          <g
-            ref={this.canvasNode}
-            width={dimensions.w}
-            height={dimensions.h}
-            transform={`translate(${margin.left}, ${margin.top})`}
-          />
-        </svg>
-      </section>
-    )
-  }
+  const { dimensions } = visualizations
+  const margin = { top: 25, right: 134, bottom: 24, left: 34 }
+  return (
+    <section ref={containerRef} className={`${styles.chart} layout-section`}>
+      <svg
+        width={dimensions.w + margin.left + margin.right}
+        height={dimensions.h + margin.top + margin.bottom}
+      >
+        <g
+          ref={canvasNode}
+          width={dimensions.w}
+          height={dimensions.h}
+          transform={`translate(${margin.left}, ${margin.top})`}
+        />
+      </svg>
+    </section>
+  )
 }

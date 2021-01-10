@@ -1,5 +1,5 @@
 import moment from "moment";
-import Chart from "./chart/components/Chart";
+import { Chart } from "./chart/components/Chart";
 import pes from "./data/pes_CR.json";
 
 function App() {
