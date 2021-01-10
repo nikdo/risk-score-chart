@@ -1,10 +1,8 @@
 import { select } from 'd3'
 import fillClip from './defs/fillClip'
-import lineClips from './defs/lineClips'
 import fill from './fill'
 import weekDays from './weekDays'
 import xAxis from './xAxis'
-import yAxis from './yAxis'
 import xGrid from './xGrid'
 import yGrid from './yGrid'
 import hoverOverlay from './hoverOverlay'
@@ -14,29 +12,26 @@ import hoverGuide from './hoverGuide'
 import hoverTarget from './hoverTarget'
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default (canvasNode, data, visualisations) => {
-  const { dimensions, scales, bftCeilings } = visualisations
+export default (canvasNode, data, visualizations) => {
+  const { dimensions, scales, ceilings } = visualizations
   const canvas = select(canvasNode)
 
   const hoverEventHandlers = []
   const subscribeToHoverEvents = handler => hoverEventHandlers.push(handler)
 
   fillClip(canvas, dimensions, scales, data)
-  lineClips(canvas, dimensions, scales.y(bftCeilings[0]))
-
-  fill(canvas, dimensions, scales, bftCeilings, subscribeToHoverEvents)
+  fill(canvas, dimensions, scales, ceilings, subscribeToHoverEvents)
 
   xGrid(canvas, dimensions, scales)
-  yGrid(canvas, dimensions, scales, bftCeilings)
+  yGrid(canvas, dimensions, scales, ceilings)
   line(canvas, dimensions, scales, data, subscribeToHoverEvents)
 
   hoverOverlay(canvas, dimensions, subscribeToHoverEvents)
 
   weekDays(canvas, dimensions, scales)
   xAxis(canvas, dimensions, scales, subscribeToHoverEvents)
-  // yAxis(canvas, dimensions, scales, bftCeilings)
 
-  hoverGuide(canvas, dimensions, scales, data, bftCeilings, subscribeToHoverEvents)
+  hoverGuide(canvas, dimensions, scales, data, ceilings, subscribeToHoverEvents)
 
   hoverTarget(canvas, dimensions, scales, hoverEventHandlers)
 }

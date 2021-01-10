@@ -2,7 +2,7 @@ import { lineHeight } from './constants'
 import hoverValueTooltip from './hoverValueTooltip'
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default (canvas, dimensions, scales, data, bftCeilings, subscribeToHoverEvents) => {
+export default (canvas, dimensions, scales, data, ceilings, subscribeToHoverEvents) => {
   const hoverGuide = canvas.append('g')
     .attr('class', 'hover-guide')
     .style('display', 'none')
@@ -16,7 +16,7 @@ export default (canvas, dimensions, scales, data, bftCeilings, subscribeToHoverE
   const value = hoverGuide.append('g')
     .attr('class', 'value')
 
-  hoverValueTooltip(value, data, bftCeilings, subscribeToHoverEvents)
+  hoverValueTooltip(value, data, ceilings, subscribeToHoverEvents)
 
   const time = hoverGuide.append('g')
     .attr('class', 'time')

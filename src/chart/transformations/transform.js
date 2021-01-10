@@ -1,7 +1,7 @@
 import { scalePoint, scaleLinear } from 'd3'
 
 const dayWidth = 10
-const bftCeilings = [20, 40, 60, 75, 100]
+const ceilings = [20, 40, 60, 75, 100]
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default data => {
@@ -18,5 +18,5 @@ export default data => {
       .rangeRound([dimensions.h, 0])
   }
 
-  return { dimensions, scales, bftCeilings }
+  return { dimensions, scales, ceilings }
 }

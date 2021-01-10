@@ -5,17 +5,14 @@ export default (root, _dimensions, scales, data, subscribeToHoverEvents) => {
   const lineGroup = root.append('g')
     .attr('class', 'wind-line')
 
-  ;['relevant-levels', 'skipped-levels'].forEach(clipPath => {
-    lineGroup.append('path')
-      .attr('class', clipPath)
-      .datum(data)
-      .attr('d', line()
-        .x(d => scales.x(d.datum_zobrazeni))
-        .y(d => scales.y(d.body))
-        .curve(curveLinear)
-      )
-      .attr('clip-path', `url(#${clipPath})`)
-  })
+  lineGroup.append('path')
+    .attr('class', 'relevant-levels')
+    .datum(data)
+    .attr('d', line()
+      .x(d => scales.x(d.datum_zobrazeni))
+      .y(d => scales.y(d.body))
+      .curve(curveLinear)
+    )
 
   subscribeToHoverEvents({
     onMouseOut: () => lineGroup.attr('mask', null),

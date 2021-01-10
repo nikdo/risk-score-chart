@@ -1,10 +1,11 @@
 import { bisect } from 'd3'
 import { lineHeight } from './constants'
 
-const toLevel = (value, levelCeilings) => bisect(levelCeilings, value) + 1
+const toLevel = (value, levelCeilings) =>
+  bisect(levelCeilings.map(val => val + 1), value) + 1
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default (value, data, bftCeilings, subscribeToHoverEvents) => {
+export default (value, data, ceilings, subscribeToHoverEvents) => {
   value.append('circle')
     .attr('r', 3)
 
@@ -26,7 +27,7 @@ export default (value, data, bftCeilings, subscribeToHoverEvents) => {
   subscribeToHoverEvents({
     onValueHover: (x, i) => {
       const score = data[i].body
-      const level = toLevel(score, bftCeilings)
+      const level = toLevel(score, ceilings)
       ms.text(score.toFixed(0))
       bf.text('Stupeň ' + level)
         .attr('class', `bft level-${level}`)
