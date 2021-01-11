@@ -1,10 +1,10 @@
 :root {
   --font-family: 'Open Sans', sans-serif;
-  --font-family-title: 'Nunito', sans-serif;
 
   --font-size-base: 16px;
   --font-size-small: 13px;
   --font-size-large: 20px;
+  --font-size-xl: 36px;
 
   --line-height-base: 1.5;
   --baseline: calc(var(--line-height-base) * var(--font-size-base)); /* 24px */
@@ -93,11 +93,11 @@
   --color-level-5: #401089; */
 
 /* chart colors with manually-aligned contrast; see Sketch file */
-  --color-level-1-text: #C0F1A4;
-  --color-level-2-text: #D69A00;
-  --color-level-3-text: #ED6B21;
-  --color-level-4-text: #DE5A59;
-  --color-level-5-text: #946F9E;
+  --color-level-1-text: #7CCC66;
+  --color-level-2-text: #EDBB24;
+  --color-level-3-text: var(--color-level-3);
+  --color-level-4-text: var(--color-level-4);
+  --color-level-5-text: var(--color-level-5);
 
   --shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   --fat-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);

@@ -1,5 +1,6 @@
 import { fillClipUrl } from './defs/fillClip'
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (canvas, dimensions, scales, data) => {
   const rects = data
     .map(({ start, end }) => ({

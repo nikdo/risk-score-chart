@@ -22,7 +22,6 @@ export default (canvas, dimensions, scales, ceilings, subscribeToHoverEvents) =>
   })
 
   subscribeToHoverEvents({
-    onMouseOut: () => fillGroup.attr('mask', null),
     onValueHover: () => fillGroup.attr('mask', 'url(#hover-overlay)')
   })
 }

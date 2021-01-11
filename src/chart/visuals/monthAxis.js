@@ -1,13 +1,12 @@
-import { axisTop } from 'd3'
-import { lineHeight } from './constants'
+import { axisBottom } from 'd3'
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default (canvas, _dimensions, scales) => {
+export default (canvas, dimensions, scales) => {
   const tickValues = scales.x.domain()
     .filter(d => d.format('DD').match(/(01)/))
     .slice(0, -1)
 
-  const axis = axisTop()
+  const axis = axisBottom()
     .scale(scales.x)
     .tickValues(tickValues)
     .tickSize(0)
@@ -15,11 +14,11 @@ export default (canvas, _dimensions, scales) => {
 
   canvas.append('g')
     .attr('class', 'week-days')
-    .attr('transform', `translate(${lineHeight / 2}, ${-lineHeight / 2})`)
+    .attr('transform', `translate(0, ${dimensions.h})`)
     .call(axis)
     .attr('text-anchor', null)
     .attr('font-size', null)
     .attr('font-family', null)
     .selectAll('text')
-    .attr('y', 0)
+    .attr('alignment-baseline', 'middle')
 }

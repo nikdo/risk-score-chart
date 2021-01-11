@@ -74,7 +74,8 @@ section.chart {
 }
 
 .chart svg :global .hover-guide line {
-  stroke: var(--color-text);
+  stroke: var(--color-romance);
+  opacity: 0.45;
   stroke-width: 1px;
 }
 
@@ -84,39 +85,44 @@ section.chart {
   stroke-width: 2px;
 }
 
-.chart svg :global .hover-guide .value text {
+.chart svg :global .hover-guide .value .lvl,
+.chart svg :global .hover-guide .value .date {
+  font-weight: bold;
   stroke: var(--color-background);
   stroke-width: 5px;
 }
 
-.chart svg :global .hover-guide .value text tspan {
+.chart svg :global .hover-guide .value .lvl {
   font-size: var(--font-size-small);
 }
-.chart svg :global .hover-guide .value text tspan.gusts {
+
+.chart svg :global .hover-guide .value .date {
   fill: var(--color-secondary-text);
 }
 
-.chart svg :global .hover-guide .value text.bft.level-1 { fill: var(--color-level-1-text); }
-.chart svg :global .hover-guide .value text.bft.level-2 { fill: var(--color-level-2-text); }
-.chart svg :global .hover-guide .value text.bft.level-3 { fill: var(--color-level-3-text); }
-.chart svg :global .hover-guide .value text.bft.level-4 { fill: var(--color-level-4-text); }
-.chart svg :global .hover-guide .value text.bft.level-5 { fill: var(--color-level-5-text); }
+.chart svg :global .hover-guide .value text.level-1 { fill: var(--color-level-1-text); }
+.chart svg :global .hover-guide .value text.level-2 { fill: var(--color-level-2-text); }
+.chart svg :global .hover-guide .value text.level-3 { fill: var(--color-level-3-text); }
+.chart svg :global .hover-guide .value text.level-4 { fill: var(--color-level-4-text); }
+.chart svg :global .hover-guide .value text.level-5 { fill: var(--color-level-5-text); }
 
-.chart svg :global .hover-guide .value .wind-direction {
-  fill: var(--color-text);
+
+.chart svg :global .hover-guide .value .rect {
+  width: 62;
+  height: 138;
 }
 
-.chart svg :global .hover-guide .value .daylight-icon {
-  fill: var(--color-text);
-}
+.chart svg :global .hover-guide .value .rect.level-1 { fill: var(--color-level-1-text); }
+.chart svg :global .hover-guide .value .rect.level-2 { fill: var(--color-level-2-text); }
+.chart svg :global .hover-guide .value .rect.level-3 { fill: var(--color-level-3-text); }
+.chart svg :global .hover-guide .value .rect.level-4 { fill: var(--color-level-4-text); }
+.chart svg :global .hover-guide .value .rect.level-5 { fill: var(--color-level-5-text); }
 
-.chart svg :global .hover-guide .value .daylight-icon .moon-icon {
-  fill: var(--color-secondary-text);
+.chart svg :global .hover-guide .value text.score {
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+  fill: var(--color-romance);
 }
-
-.chart svg :global .hover-guide .value.disabled text.ms,
-.chart svg :global .hover-guide .value.disabled text.bft,
-.chart svg :global .hover-guide .value.disabled .wind-direction { fill: var(--color-secondary-text); }
 
 .chart svg :global .hover-guide .time text {
   font-size: var(--font-size-small);

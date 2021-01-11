@@ -15,7 +15,6 @@ export default (root, _dimensions, scales, data, subscribeToHoverEvents) => {
     )
 
   subscribeToHoverEvents({
-    onMouseOut: () => lineGroup.attr('mask', null),
     onValueHover: () => lineGroup.attr('mask', 'url(#hover-overlay)')
   })
 }

@@ -1,8 +1,8 @@
 import { select } from 'd3'
 import fillClip from './defs/fillClip'
 import fill from './fill'
-import weekDays from './weekDays'
-import xAxis from './xAxis'
+import monthAxis from './monthAxis'
+import dateAxis from './dateAxis'
 import xGrid from './xGrid'
 import yGrid from './yGrid'
 import hoverOverlay from './hoverOverlay'
@@ -28,8 +28,8 @@ export default (canvasNode, data, visualizations) => {
 
   hoverOverlay(canvas, dimensions, subscribeToHoverEvents)
 
-  weekDays(canvas, dimensions, scales)
-  xAxis(canvas, dimensions, scales, subscribeToHoverEvents)
+  monthAxis(canvas, dimensions, scales)
+  dateAxis(canvas, dimensions, scales)
 
   hoverGuide(canvas, dimensions, scales, data, ceilings, subscribeToHoverEvents)
 

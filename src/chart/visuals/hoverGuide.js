@@ -16,23 +16,9 @@ export default (canvas, dimensions, scales, data, ceilings, subscribeToHoverEven
   const value = hoverGuide.append('g')
     .attr('class', 'value')
 
-  hoverValueTooltip(value, data, ceilings, subscribeToHoverEvents)
-
-  const time = hoverGuide.append('g')
-    .attr('class', 'time')
-    .attr('transform', `translate(0, ${dimensions.h})`)
-
-  time.append('path')
-    .attr('fill', 'none')
-    .attr('d', `M 0 0 V ${lineHeight} H ${lineHeight / 4}`)
-
-  time.append('text')
-    .attr('x', lineHeight / 2)
-    .attr('y', lineHeight)
-    .attr('alignment-baseline', 'middle')
+  hoverValueTooltip(value, scales, data, ceilings, subscribeToHoverEvents)
 
   subscribeToHoverEvents({
-    onMouseOut: () => hoverGuide.style('display', 'none'),
     onValueHover: (x, i) => {
       const y = scales.y(data[i].body)
       hoverGuide
@@ -40,7 +26,6 @@ export default (canvas, dimensions, scales, data, ceilings, subscribeToHoverEven
         .attr('transform', `translate(${x}, 0)`)
       line.attr('y1', y)
       value.attr('transform', `translate(0, ${y})`)
-      time.select('.time text').text(scales.x.domain()[i].format('D.M.'))
     }
   })
 }

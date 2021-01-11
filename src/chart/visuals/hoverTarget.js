@@ -20,14 +20,18 @@ const getClosestValueIndex = (array, value) => {
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (canvas, dimensions, scales, eventHandlers) => {
   const hourTickPositions = getPointScaleTickPositions(scales.x)
-  let selectedIndex = null
+  const initialIndex = hourTickPositions.length - 1
+  let selectedIndex = initialIndex
+  const reset = () =>
+    eventHandlers.forEach(handler => handler.onValueHover
+      && handler.onValueHover(hourTickPositions[initialIndex], initialIndex))
+
   canvas.append('rect')
     .attr('class', 'hover-target')
     .attr('width', dimensions.w)
     .attr('height', dimensions.h)
     .on('mouseout', () => {
-      selectedIndex = null
-      eventHandlers.forEach(handler => handler.onMouseOut && handler.onMouseOut())
+      reset()
     })
     .on('mousemove', function (e) {
       const newIndex = getClosestValueIndex(hourTickPositions, pointer(e)[0])
@@ -37,4 +41,5 @@ export default (canvas, dimensions, scales, eventHandlers) => {
         eventHandlers.forEach(handler => handler.onValueHover && handler.onValueHover(x, selectedIndex))
       }
     })
+  reset()
 }
