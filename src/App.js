@@ -1,6 +1,9 @@
 import moment from "moment";
+import "moment/locale/cs";
 import { Chart } from "./chart/components/Chart";
 import pes from "./data/pes_CR.json";
+
+moment.locale('cs')
 
 function App() {
   return (
