@@ -7,6 +7,7 @@ export default (canvas, dimensions, scales) => {
     .scale(scales.x)
     .tickValues(scales.x.domain().filter(d => d.format('DD').match(/12|16|20|24|28/)))
     .tickSize(5)
+    .tickSizeOuter(0)
     .tickFormat(d => d.format('D.'))
 
   const element = canvas.append('g')
