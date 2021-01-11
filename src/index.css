@@ -8,12 +8,20 @@ body {
 h1 {
   font-size: 36px;
   font-weight: 600;
-  margin-left: 32px;
+  margin: 40px 32px 0;
+}
+
+h1 > * {
+  vertical-align: middle;
+}
+
+h1 > svg {
+  margin-right: 16px;
 }
 
 @media (min-width: 700px) {
   h1 {
-    margin-left: 50px;
+    margin-left: 48px;
   }
 }
 

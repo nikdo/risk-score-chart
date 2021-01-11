@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <path id="logo-a" d="M5,0 L35,0 C37.7614237,0 40,2.23857625 40,5 L40,35 C40,37.7614237 37.7614237,40 35,40 L5,40 C2.23857625,40 0,37.7614237 0,35 L0,5 C0,2.23857625 2.23857625,0 5,0 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="logo-b" fill="#fff">
+      <use xlink:href="#logo-a"/>
+    </mask>
+    <use fill="#E67170" xlink:href="#logo-a"/>
+    <rect width="40" height="10" fill="#9872A2" mask="url(#logo-b)"/>
+    <rect width="40" height="10" y="10" fill="#E67170" mask="url(#logo-b)"/>
+    <rect width="40" height="10" y="20" fill="#F29F70" mask="url(#logo-b)"/>
+    <rect width="40" height="10" y="30" fill="#F9E196" mask="url(#logo-b)"/>
+  </g>
+</svg>
