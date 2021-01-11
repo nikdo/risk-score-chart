@@ -15,7 +15,7 @@ export const Chart = ({ data }) => {
   })
 
   const { dimensions } = visualizations
-  const margin = { top: 25, right: 134, bottom: 24, left: 34 }
+  const margin = { top: 25, right: 134, bottom: 24, left: 0 }
   return (
     <section ref={containerRef} className={`${styles.chart} layout-section`}>
       <svg

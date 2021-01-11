@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (canvas, dimensions, subscribeToHoverEvents) => {
   const mask = canvas.append('mask')
     .attr('id', 'hover-overlay')

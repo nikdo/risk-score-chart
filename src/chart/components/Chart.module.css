@@ -8,9 +8,13 @@ section.chart {
   overscroll-behavior-x: contain;
 }
 
+section.chart svg {
+  padding-left: 32px;
+}
+
 @media (width > 700px) {
   section.chart svg {
-    margin-left: -34px; /* = chart margin for y axis labels */
+    padding-left: 50px;
   }
 }
 

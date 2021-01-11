@@ -1,4 +1,3 @@
-import { lineHeight } from './constants'
 import hoverValueTooltip from './hoverValueTooltip'
 
 // eslint-disable-next-line import/no-anonymous-default-export
