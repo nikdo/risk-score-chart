@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 import { fetchData } from './fetchData';
 import { ReactComponent as Logo } from './logo.svg';
-import { Chart } from "./chart/components/Chart";
+import { Chart } from './chart/components/Chart';
 
 function App() {
   const [data, setData] = useState()
