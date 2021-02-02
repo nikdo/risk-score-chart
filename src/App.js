@@ -18,9 +18,7 @@ function App() {
       <h1><Logo /><span>Index rizika</span></h1>
       {data
         ? <Chart data={data} />
-        : <div style={{ height: 348, position: 'relative' }}>
-            <Spinner />
-          </div>
+        : <Spinner />
       }
       <Footer />
     </>

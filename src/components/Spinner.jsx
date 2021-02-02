@@ -18,21 +18,23 @@ export const Spinner = ({ inline = false }) => {
       marginTop: -25
     }
   return (
-    <svg
-      className={styles.spinner}
-      viewBox='0 0 50 50'
-      style={position}
-    >
-      <linearGradient id='gradient'>
-        <stop offset='30%' stopColor='#F9E196' />
-        <stop offset='100%' stopColor='#F29F70'/>
-      </linearGradient>
-      <circle
-        className={styles.path}
-        cx='25' cy='25' r='20'
-        strokeWidth={inline ? 6 : 4}
-        stroke='url(#gradient)'
-      />
-    </svg>
+    <section className={styles.wrapper}>
+      <svg
+        className={styles.spinner}
+        viewBox='0 0 50 50'
+        style={position}
+      >
+        <linearGradient id='gradient'>
+          <stop offset='30%' stopColor='#F9E196' />
+          <stop offset='100%' stopColor='#F29F70'/>
+        </linearGradient>
+        <circle
+          className={styles.path}
+          cx='25' cy='25' r='20'
+          strokeWidth={inline ? 6 : 4}
+          stroke='url(#gradient)'
+        />
+      </svg>
+    </section>
   )
 }
