@@ -1,0 +1,85 @@
+- [x] list hypotheses ⚬
+- [x] define success criteria
+- [x] spike usage of my chart
+	- [x] with their data ⚬⚬
+		- [x] provide static data to chart
+		- [x] extract chart to new creat-react-app
+		- [x] remove unwanted chart features (daylight, etc.)
+		- [x] provide risk score data to chart
+		- [x] remove invalid values form hover
+		- [x] fix height
+		- [x] add grid
+		- [x] add axes
+		- [x] change grid to months
+		- [x] add date tooltip
+		- [x] update chart to have the right color and size
+		- [x] calculate chart width based on day width
+		- [x] fix incorrect level in tooltip
+	- [x] with their levels ⚬
+	- [x] with their colors ⚬
+	- [x] scroll to right ⚬
+	- [x] delete unused stuff
+	- [x] rename stuff
+	- [x] rewrite `Chart` to functional component
+	- [x] fix incorrect limiting values (75 = level 4)
+- [x] show hover all the time
+- [x] show bottom dates all the time
+- [x] fix left padding
+- [x] localize months
+- [x] change page title
+- [x] replace favicon
+- [x] skip starting and ending x axis ticks
+- [x] serve own local CSV
+- [x] convert csv to json
+- [x] lear about how to fix CORS
+- [x] investigate deployment options
+- [x] find out if I can redirect nikdo.cz subdomain to DigitalOcean droplet
+- [x] configure handling covid.nikdo.cz on DigitalOcean ⚬
+	- follow steps from `linux-api-infrastructure.md`
+	- [x] create `www` directory
+	- [x] chown all directories to `githook` user
+	- [x] put static content to that directory
+	- [x] configure Nginx to share the static content
+	- [x] find out if there is React app DigitalOcean tutorial
+	- [x] read [React app DigitalOcean tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-react-application-with-nginx-on-ubuntu-20-04#step-2-—-determining-deployment-file-location-on-your-ubuntu-server)
+	- [x] deploy (without HTTPs)
+- [x] investigate how hared is git push deployment
+- [x] deploy with git push
+- [x] configure HTTPs
+	- [x] read HTTPS certificate instructions again
+	- [x] find out who does what: DNS, domain registrar, hosting
+	- [x] configure HTTPs
+	- [x] find out [if I need separate certificate for nikdo.cz bare domain](https://serverfault.com/a/566433)
+- [x] implement API middleware 3h
+	- [x] plan
+	- [x] estimate
+	- [x] timebox
+	- [x] explore node request options
+	- [x] figure out how I did caching on wfx-api
+	- [x] [pick request library with caching option](https://www.npmtrends.com/axios-vs-node-fetch-vs-got-vs-make-fetch-happen-vs-ky) (got and make-fetch-happen has one)
+	- [x] implement simple REST API
+	- [x] transform static CSV using Papa Parse
+	- [x] set up cors
+	- [x] use API in `risk-score-chart` locally
+	- [x] deploy the same way as `wfx-api`
+	- [x] deploy `risk-score-chart` with link to API
+	- [x] fetch CSV using [got](https://github.com/sindresorhus/got)
+	- [x] review estimate of this subtask vs. reality
+		- 3h learning alone: GraphQL, React, Relay, node request libraries
+		- 5h implementation
+		- 2h deployment
+		- 10h total vs. 3h estimate
+- [x] fix missing month label
+- [x] show loader
+- [x] pick license
+- [x] add link to my website and source code
+- [ ] align hover tooltip with level
+- [ ] normalize data
+- [ ] cash responses
+	- UZIS does not reflect `Cache-Control` headers, HTTP caching with `got` is not possible, custom caching mechanism has to be implemented
+	- [ ] consider setting `Cache-Control` headers for my API responses to prevent it already in browser; but verify that it works and the endpoint is not hit
+- [ ] [lint with standard](https://standardjs.com/)
+- [ ] animate sliding hover to right
+- [ ] [wrap API to GraphQL](https://graphql.org/blog/rest-api-graphql-wrapper/)
+	- [ ] consider also [express-graphql](https://github.com/graphql/express-graphql) and [apollo-server](https://www.apollographql.com/docs/apollo-server/)
+	- [ ] [use Relay](https://relay.dev/docs/en/a-guided-tour-of-relay)
