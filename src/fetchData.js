@@ -14,4 +14,4 @@ const apiUrl = process.env.NODE_ENV === 'development'
 
 export const fetchData = () => fetch(apiUrl + '/risk-score')
   .then(response => response.json())
-  .then(data => normalize(data))
+  .then(normalize)

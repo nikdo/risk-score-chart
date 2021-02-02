@@ -4,7 +4,6 @@ import { axisBottom } from 'd3'
 export default (canvas, dimensions, scales) => {
   const tickValues = scales.x.domain()
     .filter(d => d.format('DD').match(/(01)/))
-    .slice(0, -1)
 
   const axis = axisBottom()
     .scale(scales.x)
