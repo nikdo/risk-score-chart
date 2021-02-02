@@ -1,0 +1,35 @@
+@import 'brand.css';
+
+ul.footer {
+  font-size: var(--font-size-small);
+  color: var(--color-text);
+  margin: calc(var(--baseline) / 3 * 2) 32px;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 700px) {
+  ul.footer {
+    margin-left: 48px;
+  }
+}
+
+ul.footer li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul.footer li:not(:last-of-type)::after {
+  content: ' • ';
+}
+
+ul.footer a {
+  color: var(--color-level-5-text);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+ul.footer a:hover {
+  text-decoration: underline;
+}
